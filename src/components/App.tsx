@@ -1,5 +1,11 @@
+import MainForm from 'src/components/organisms/MainForm/MainForm';
+
 const App = () => {
-  return <h1 className="text-lg text-slate-700">Hello</h1>;
+  return (
+    <div className="h-screen w-full flex items-center justify-center">
+      <MainForm />
+    </div>
+  );
 };
 
 export default App;
